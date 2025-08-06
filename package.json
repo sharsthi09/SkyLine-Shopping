@@ -2,11 +2,22 @@
   "name": "ishop",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "keywords": [],
-  "author": "",
+  "homepage": "https://github.com/sharsthi09/SkyLine-Shopping#readme",
+  "bugs": {
+    "url": "https://github.com/sharsthi09/SkyLine-Shopping/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sharsthi09/SkyLine-Shopping.git"
+  },
   "license": "ISC",
+  "author": "",
   "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"cd backend && node --watch index\" \"cd frontend && npm run dev\""
+  },
   "dependencies": {
     "@radix-ui/react-icons": "^1.3.2",
     "@radix-ui/react-slot": "^1.2.3",
@@ -22,9 +33,6 @@
     "swiper": "^11.2.6",
     "tailwind-scrollbar-hide": "^2.0.0",
     "tailwind-variants": "^1.0.0"
-  },
-  "scripts": {
-    "start": "concurrently \"cd backend && node --watch index\" \"cd frontend && npm run dev\""
   },
   "devDependencies": {
     "autoprefixer": "^10.4.21",
