@@ -31,7 +31,7 @@
     "lucide-react": "^0.503.0",
     "rc-slider": "^11.1.8",
     "react": "^18.2.0",
-"react-dom": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-icons": "^5.5.0",
     "react-razorpay": "^3.0.1",
     "react-redux": "^9.2.0",
@@ -39,6 +39,7 @@
     "react-select": "^5.10.1",
     "react-toastify": "^11.0.5",
     "recharts": "^2.15.3",
+    "rollup": "^4.46.2",
     "sweetalert2": "^11.6.13",
     "swiper": "^11.2.6",
     "tailwind-scrollbar-hide": "^2.0.0",
@@ -47,8 +48,7 @@
   "devDependencies": {
     "@eslint/js": "^9.21.0",
     "@types/react": "^18.2.21",
-"@types/react-dom": "^18.2.7",
-
+    "@types/react-dom": "^18.2.7",
     "@vitejs/plugin-react": "^4.3.4",
     "autoprefixer": "^10.4.21",
     "eslint": "^9.21.0",
