@@ -1,0 +1,368 @@
+[{
+  "_id": {
+    "$oid": "6a3150220dcb49c53438f202"
+  },
+  "categoryname": "Women Kurtis",
+  "categoryslug": "women-kurtis",
+  "categoryimage": "1781616686567CaX8ebLZ_c170e25627d04f42826afdf9fbb09c9e.jpg",
+  "categorystatus": true,
+  "createdAt": {
+    "$date": "2026-06-16T13:31:14.601Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-17T15:32:20.557Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3150310dcb49c53438f204"
+  },
+  "categoryname": "Women Sarees",
+  "categoryslug": "women-sarees",
+  "categoryimage": "1781616740710DsQ98JjU_fbb36526592e4d0aaab277e90c42463a.jpg",
+  "categorystatus": true,
+  "createdAt": {
+    "$date": "2026-06-16T13:31:29.513Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-16T13:31:29.513Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a31503e0dcb49c53438f206"
+  },
+  "categoryname": "Women Skirts",
+  "categoryslug": "women-skirts",
+  "categoryimage": "1781616795181wXPVesOP_4179091d5ad84c6d9b19660ef1e2039d.jpg",
+  "categorystatus": true,
+  "createdAt": {
+    "$date": "2026-06-16T13:31:42.176Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-16T13:31:42.176Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a31504e0dcb49c53438f208"
+  },
+  "categoryname": "Women Dresses",
+  "categoryslug": "women-dresses",
+  "categoryimage": "17816168042638BCW9QZl_1ab0a10a18ac4a738a99e98c2e51da39.jpg",
+  "categorystatus": true,
+  "createdAt": {
+    "$date": "2026-06-16T13:31:58.277Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-16T13:31:58.277Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3150660dcb49c53438f20a"
+  },
+  "categoryname": "Women Tshirts",
+  "categoryslug": "women-tshirts",
+  "categoryimage": "1781616764837imgi_22_wPSx6qth_69d4cfdd29cf46189919cf615cd3edd0.jpeg",
+  "categorystatus": true,
+  "createdAt": {
+    "$date": "2026-06-16T13:32:22.888Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-16T13:32:22.888Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3150790dcb49c53438f20c"
+  },
+  "categoryname": "Women Coord Sets",
+  "categoryslug": "women-coord-sets",
+  "categoryimage": "1781616819947imgi_18_MM51qdRC_af19b7293b0e4e5097058953f322cee2.jpg",
+  "categorystatus": true,
+  "createdAt": {
+    "$date": "2026-06-16T13:32:41.647Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-16T13:32:41.647Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3150870dcb49c53438f20e"
+  },
+  "categoryname": "Mens Tshirts",
+  "categoryslug": "mens-tshirts",
+  "categoryimage": "1781616875175imgi_19_dnA8DCIM_3b9a933231834c92ad15f76414349213.jpg",
+  "categorystatus": true,
+  "createdAt": {
+    "$date": "2026-06-16T13:32:55.503Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-16T13:32:55.503Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3150ae0dcb49c53438f218"
+  },
+  "categoryname": "Mens Casual Shirts",
+  "categoryslug": "mens-casual-shirts",
+  "categoryimage": "1781616822911imgi_33_n3zpjpEg_8987b2876e18459791ab3c1cb58e2a11.jpg",
+  "categorystatus": true,
+  "createdAt": {
+    "$date": "2026-06-16T13:33:34.312Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-16T13:33:34.312Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3150be0dcb49c53438f21a"
+  },
+  "categoryname": "Mens Jackets",
+  "categoryslug": "mens-jackets",
+  "categoryimage": "1781616886126imgi_16_c7a9be1b-d1fd-40f9-a1cc-db53ffcfef161754476579982-BLUE-TYGA-Men-Lightweight-Outdoor-Sporty-Sunscreen-Jacket-49-4.jpg",
+  "categorystatus": true,
+  "createdAt": {
+    "$date": "2026-06-16T13:33:50.402Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-16T13:33:50.402Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3151000dcb49c53438f231"
+  },
+  "categoryname": "Mens Ethnics",
+  "categoryslug": "mens-ethnics",
+  "categoryimage": "1781616975633imgi_85_LhIgPmBi_e24250ecce3c4ebdbe6d68f0e81eb6fc.jpg",
+  "categorystatus": true,
+  "createdAt": {
+    "$date": "2026-06-16T13:34:56.445Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-16T13:34:56.445Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3151150dcb49c53438f233"
+  },
+  "categoryname": "Mens Shorts",
+  "categoryslug": "mens-shorts",
+  "categoryimage": "1781616966409imgi_21_503c748c-7d82-46d6-9868-171c7cf8d4271715678697099-HRX-by-Hrithik-Roshan-Men-Shorts-841715678696339-1.jpg",
+  "categorystatus": true,
+  "createdAt": {
+    "$date": "2026-06-16T13:35:17.991Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-16T13:35:17.991Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3151260dcb49c53438f235"
+  },
+  "categoryname": "Mens Shoes",
+  "categoryslug": "mens-shoes",
+  "categoryimage": "1781616991642imgi_19_8b434336-22e8-4097-a49e-eb38615f42911740564434235-NEEMANS-Woven-Design-Lightweight-Slip-On-Sneakers-4317405644-1.jpg",
+  "categorystatus": true,
+  "createdAt": {
+    "$date": "2026-06-16T13:35:34.030Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-16T13:35:34.030Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3151370dcb49c53438f237"
+  },
+  "categoryname": "Kids Tshirts",
+  "categoryslug": "kids-tshirts",
+  "categoryimage": "1781617023365imgi_22_ujbwNLgy_222f96c9b62444e9bb6cdf156baef695.jpg",
+  "categorystatus": true,
+  "createdAt": {
+    "$date": "2026-06-16T13:35:51.031Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-16T13:35:51.031Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3151440dcb49c53438f239"
+  },
+  "categoryname": "Girls Dresses",
+  "categoryslug": "girls-dresses",
+  "categoryimage": "1781617056156imgi_16_gEmMjgcU_3db2054d91894f469ddd7bcfce49b1a3.jpg",
+  "categorystatus": true,
+  "createdAt": {
+    "$date": "2026-06-16T13:36:04.534Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-16T13:36:04.534Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a31515a0dcb49c53438f23b"
+  },
+  "categoryname": "Kids Flats",
+  "categoryslug": "kids-flats",
+  "categoryimage": "1781617082242imgi_31_5bboltFo_33173884d5c749e78927d277244bbaff.jpg",
+  "categorystatus": true,
+  "createdAt": {
+    "$date": "2026-06-16T13:36:26.308Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-16T13:36:26.308Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3151900dcb49c53438f24d"
+  },
+  "categoryname": "Kids Jackets",
+  "categoryslug": "kids-jackets",
+  "categoryimage": "1781617061912imgi_16_9H8MBvlz_045200f730fa4a6a88056254710acde6.jpg",
+  "categorystatus": true,
+  "createdAt": {
+    "$date": "2026-06-16T13:37:20.450Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-16T13:37:20.450Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a31519d0dcb49c53438f24f"
+  },
+  "categoryname": "Kids Shorts",
+  "categoryslug": "kids-shorts",
+  "categoryimage": "1781617146490imgi_13_42ehDTMA_787a959501144b7d95a27626961f0b92.jpg",
+  "categorystatus": true,
+  "createdAt": {
+    "$date": "2026-06-16T13:37:33.944Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-16T13:37:33.944Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3151ac0dcb49c53438f251"
+  },
+  "categoryname": "Bed Sheets",
+  "categoryslug": "bed-sheets",
+  "categoryimage": "1781617070324imgi_22_Hj78k7AK_a42a42d389554e59ac936f8877e4e4af.jpg",
+  "categorystatus": true,
+  "createdAt": {
+    "$date": "2026-06-16T13:37:48.713Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-16T13:37:48.713Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a31520f0dcb49c53438f253"
+  },
+  "categoryname": "Sofa Covers",
+  "categoryslug": "sofa-covers",
+  "categoryimage": "1781617181893imgi_30_cb58a0c1-b76f-427b-b8ed-a98d4cea86421700114091954SofaCovers1.jpg",
+  "categorystatus": true,
+  "createdAt": {
+    "$date": "2026-06-16T13:39:27.708Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-16T13:39:27.708Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a31526e0dcb49c53438f269"
+  },
+  "categoryname": "Home Mirrors",
+  "categoryslug": "home-mirrors",
+  "categoryimage": "1781617324074imgi_13_UYQ2dmzN_7988887044204234878bedd37f9764e5.jpg",
+  "categorystatus": true,
+  "createdAt": {
+    "$date": "2026-06-16T13:41:02.427Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-16T13:41:02.427Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3152790dcb49c53438f26b"
+  },
+  "categoryname": "Wall Decor",
+  "categoryslug": "wall-decor",
+  "categoryimage": "1781617329895imgi_27_bfd3165d-96fe-458b-af55-33c011af20291737203387450-Art-Street-Gold-Toned--Black-Paper-Gold.jpg",
+  "categorystatus": true,
+  "createdAt": {
+    "$date": "2026-06-16T13:41:13.738Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-16T13:41:13.738Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3152850dcb49c53438f26d"
+  },
+  "categoryname": "Festive Decor",
+  "categoryslug": "festive-decor",
+  "categoryimage": "1781617353288imgi_18_xQuH5rez_722d1b2ace18418aa2e44e378f027e30.jpg",
+  "categorystatus": true,
+  "createdAt": {
+    "$date": "2026-06-16T13:41:25.509Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-16T13:41:25.509Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3152980dcb49c53438f26f"
+  },
+  "categoryname": "Aromas & Candles",
+  "categoryslug": "aromas-candles",
+  "categoryimage": "1781617368585imgi_16_38a4e6e8-5f69-4b40-8aa3-b63d747df3f61703074034493LargeCeramicJarCandle-WhiteLily1.jpg",
+  "categorystatus": true,
+  "createdAt": {
+    "$date": "2026-06-16T13:41:44.853Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-16T13:41:44.853Z"
+  },
+  "__v": 0
+}]

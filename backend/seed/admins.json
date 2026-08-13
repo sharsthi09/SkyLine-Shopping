@@ -1,0 +1,17 @@
+[{
+  "_id": {
+    "$oid": "6a2c0ff6beb80bcc3de71f2d"
+  },
+  "name": "Sharsthi Sharma",
+  "email": "sharmasharsthi@gmail.com",
+  "password": "68ee542e4cb0f97721f060190cf6b7f418130403a1594ab82e56e2b4fdd9e94e181ca67161b2fa83ddaacd01c79f4791da2c8c49001c604314e209cbad9c3f25ad7f65417b9c576a670fa44fb9fc5d5f723cce5b897b00b99841d448010621eab5ec26ecc8",
+  "phone": 9461488773,
+  "role": false,
+  "createdAt": {
+    "$date": "2026-06-12T13:56:06.288Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-12T13:56:06.288Z"
+  },
+  "__v": 0
+}]

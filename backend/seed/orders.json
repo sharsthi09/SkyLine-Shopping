@@ -1,0 +1,29 @@
+[{
+  "_id": {
+    "$oid": "6a313dba0dcb49c53438f1f4"
+  },
+  "user_id": {
+    "$oid": "6a2c101cbeb80bcc3de71f35"
+  },
+  "product_details": [],
+  "order_total": 0,
+  "payment_mode": false,
+  "razorpay_order_id": null,
+  "razorpay_payment_id": null,
+  "order_status": 0,
+  "shipping_details": {
+    "addressLine1": "27 Shivad area subash chowk",
+    "addressLine2": "Amer Road , Jaipur",
+    "city": "Jaipur",
+    "state": "Rajasthan",
+    "postalCode": "302002",
+    "country": "India"
+  },
+  "createdAt": {
+    "$date": "2026-06-16T12:12:42.810Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-16T12:12:42.810Z"
+  },
+  "__v": 0
+}]

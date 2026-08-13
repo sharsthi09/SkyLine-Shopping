@@ -1,0 +1,38 @@
+[{
+  "_id": {
+    "$oid": "6a31702a0dcb49c53438f7c9"
+  },
+  "user_id": {
+    "$oid": "6a2c101cbeb80bcc3de71f35"
+  },
+  "product_id": {
+    "$oid": "6a316e530dcb49c53438f73a"
+  },
+  "qty": 1,
+  "createdAt": {
+    "$date": "2026-06-16T15:47:54.571Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-16T15:47:54.571Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3170460dcb49c53438f7d2"
+  },
+  "user_id": {
+    "$oid": "6a2c101cbeb80bcc3de71f35"
+  },
+  "product_id": {
+    "$oid": "6a316c510dcb49c53438f6e6"
+  },
+  "qty": 1,
+  "createdAt": {
+    "$date": "2026-06-16T15:48:22.435Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-16T15:48:22.435Z"
+  },
+  "__v": 0
+}]

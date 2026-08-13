@@ -1,0 +1,432 @@
+[{
+  "_id": {
+    "$oid": "6a3152a30dcb49c53438f272"
+  },
+  "colorName": "Black",
+  "colorSlug": "black",
+  "colorCode": "#000000",
+  "colorStatus": true,
+  "createdAt": {
+    "$date": "2026-06-16T13:41:55.773Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-17T13:37:02.898Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3152e20dcb49c53438f274"
+  },
+  "colorName": "White",
+  "colorSlug": "white",
+  "colorCode": "#ffffff",
+  "colorStatus": true,
+  "createdAt": {
+    "$date": "2026-06-16T13:42:58.648Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-16T13:42:58.648Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3152f70dcb49c53438f276"
+  },
+  "colorName": "Navy",
+  "colorSlug": "navy",
+  "colorCode": "#001f54",
+  "colorStatus": true,
+  "createdAt": {
+    "$date": "2026-06-16T13:43:19.755Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-16T13:43:19.755Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3153080dcb49c53438f278"
+  },
+  "colorName": "Gray",
+  "colorSlug": "gray",
+  "colorCode": "#808080",
+  "colorStatus": true,
+  "createdAt": {
+    "$date": "2026-06-16T13:43:36.664Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-16T13:43:36.664Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3153230dcb49c53438f27a"
+  },
+  "colorName": "Beige",
+  "colorSlug": "beige",
+  "colorCode": "#f5f5dc",
+  "colorStatus": true,
+  "createdAt": {
+    "$date": "2026-06-16T13:44:03.143Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-16T13:44:03.143Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3153370dcb49c53438f27c"
+  },
+  "colorName": "Red",
+  "colorSlug": "red",
+  "colorCode": "#e63946",
+  "colorStatus": true,
+  "createdAt": {
+    "$date": "2026-06-16T13:44:23.460Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-16T13:44:23.460Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a31534f0dcb49c53438f27e"
+  },
+  "colorName": "Orange",
+  "colorSlug": "orange",
+  "colorCode": "#ff7f00",
+  "colorStatus": true,
+  "createdAt": {
+    "$date": "2026-06-16T13:44:47.014Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-16T13:44:47.014Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3153730dcb49c53438f280"
+  },
+  "colorName": "Yellow",
+  "colorSlug": "yellow",
+  "colorCode": "#ffd60a",
+  "colorStatus": true,
+  "createdAt": {
+    "$date": "2026-06-16T13:45:23.471Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-16T13:45:23.471Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3153870dcb49c53438f282"
+  },
+  "colorName": "Mustard",
+  "colorSlug": "mustard",
+  "colorCode": "#d4a017",
+  "colorStatus": true,
+  "createdAt": {
+    "$date": "2026-06-16T13:45:43.423Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-16T13:45:43.423Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a31539b0dcb49c53438f284"
+  },
+  "colorName": "Camel",
+  "colorSlug": "camel",
+  "colorCode": "#c19a6b",
+  "colorStatus": true,
+  "createdAt": {
+    "$date": "2026-06-16T13:46:03.471Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-16T13:46:03.471Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3153b40dcb49c53438f286"
+  },
+  "colorName": "Terracotta",
+  "colorSlug": "terracotta",
+  "colorCode": "#e2725b",
+  "colorStatus": true,
+  "createdAt": {
+    "$date": "2026-06-16T13:46:28.147Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-16T13:46:28.147Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3153d70dcb49c53438f288"
+  },
+  "colorName": "Blue",
+  "colorSlug": "blue",
+  "colorCode": "#2563eb",
+  "colorStatus": true,
+  "createdAt": {
+    "$date": "2026-06-16T13:47:03.157Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-16T13:47:03.157Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3153ea0dcb49c53438f28a"
+  },
+  "colorName": "Sky Blue",
+  "colorSlug": "sky-blue",
+  "colorCode": "#38bdf8",
+  "colorStatus": true,
+  "createdAt": {
+    "$date": "2026-06-16T13:47:22.656Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-16T13:47:22.656Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3154080dcb49c53438f28c"
+  },
+  "colorName": "Mint Green",
+  "colorSlug": "mint-green",
+  "colorCode": "#98ff98",
+  "colorStatus": true,
+  "createdAt": {
+    "$date": "2026-06-16T13:47:52.655Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-16T13:47:52.655Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3154160dcb49c53438f28e"
+  },
+  "colorName": "Olive",
+  "colorSlug": "olive",
+  "colorCode": "#808000",
+  "colorStatus": true,
+  "createdAt": {
+    "$date": "2026-06-16T13:48:06.385Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-16T13:48:06.385Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3154300dcb49c53438f290"
+  },
+  "colorName": "Teal",
+  "colorSlug": "teal",
+  "colorCode": "#008080",
+  "colorStatus": true,
+  "createdAt": {
+    "$date": "2026-06-16T13:48:32.744Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-16T13:48:32.744Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3154430dcb49c53438f292"
+  },
+  "colorName": "Pink",
+  "colorSlug": "pink",
+  "colorCode": "#ff69b4",
+  "colorStatus": true,
+  "createdAt": {
+    "$date": "2026-06-16T13:48:51.899Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-16T13:48:51.899Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3154630dcb49c53438f294"
+  },
+  "colorName": "Lavender",
+  "colorSlug": "lavender",
+  "colorCode": "#e6e6fa",
+  "colorStatus": true,
+  "createdAt": {
+    "$date": "2026-06-16T13:49:23.055Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-16T13:49:23.055Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a31547e0dcb49c53438f296"
+  },
+  "colorName": "Peach",
+  "colorSlug": "peach",
+  "colorCode": "#ffdab9",
+  "colorStatus": true,
+  "createdAt": {
+    "$date": "2026-06-16T13:49:50.315Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-16T13:49:50.315Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3154b20dcb49c53438f299"
+  },
+  "colorName": "Purple",
+  "colorSlug": "purple",
+  "colorCode": "#8a2be2",
+  "colorStatus": true,
+  "createdAt": {
+    "$date": "2026-06-16T13:50:42.680Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-16T13:50:42.680Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3154c50dcb49c53438f29b"
+  },
+  "colorName": "Gold",
+  "colorSlug": "gold",
+  "colorCode": "#ffd700",
+  "colorStatus": true,
+  "createdAt": {
+    "$date": "2026-06-16T13:51:01.107Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-16T13:51:01.107Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a315ef30dcb49c53438f398"
+  },
+  "colorName": "Brown",
+  "colorSlug": "brown",
+  "colorCode": "#380a0a",
+  "colorStatus": true,
+  "createdAt": {
+    "$date": "2026-06-16T14:34:27.840Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-16T14:34:27.840Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3230e6cb4b1638ec02f155"
+  },
+  "colorName": "Green",
+  "colorSlug": "green",
+  "colorCode": "#047626",
+  "colorStatus": true,
+  "createdAt": {
+    "$date": "2026-06-17T05:30:14.872Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-17T05:30:14.872Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a323116cb4b1638ec02f157"
+  },
+  "colorName": "Magenta",
+  "colorSlug": "magenta",
+  "colorCode": "#e3b8c9",
+  "colorStatus": true,
+  "createdAt": {
+    "$date": "2026-06-17T05:31:02.802Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-17T05:31:02.802Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3235bdcb4b1638ec02f253"
+  },
+  "colorName": "Maroom",
+  "colorSlug": "maroom",
+  "colorCode": "#65141e",
+  "colorStatus": true,
+  "createdAt": {
+    "$date": "2026-06-17T05:50:53.772Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-17T05:50:53.772Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3260d89dc519bcb389773f"
+  },
+  "colorName": "Cream",
+  "colorSlug": "cream",
+  "colorCode": "#e6ddce",
+  "colorStatus": true,
+  "createdAt": {
+    "$date": "2026-06-17T08:54:48.557Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-17T08:54:48.557Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a3260e9569e0dcfdd7f4f24"
+  },
+  "colorName": "Off White",
+  "colorSlug": "off-white",
+  "colorCode": "#efe6e6",
+  "colorStatus": true,
+  "createdAt": {
+    "$date": "2026-06-17T08:55:05.926Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-17T08:55:05.926Z"
+  },
+  "__v": 0
+}]
