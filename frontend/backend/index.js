@@ -10,18 +10,18 @@ const AdminRouter = require('./routers/AdminRouter');
 const UserRouter = require('./routers/UserRouter');
 const OrderRouter = require('./routers/OrderRouter');
 
+
 const server = express();
 const PORT= process.env.PORT //5001;
 
 server.use(express.json());
-server.use(cors(
-    {
-        origin:['http://localhost:5173']
-    }
-))
-server.get('/', (req, res) => {
-    res.send('Server is running successfully!');
-});
+server.use(cors({
+    origin: [
+        'http://localhost:5173'
+        // 'https://YOUR-FRONTEND-PROJECT.vercel.app' // add after frontend is deployed
+    ]
+}));
+
 server.use(express.static('Public'));
 
 server.use('/category',CategoryRouter)
@@ -53,3 +53,11 @@ mongoose.connect(
         console.log(error)
     }
 )
+// Only listen locally — Vercel handles this itself in production
+if (process.env.NODE_ENV !== 'production') {
+    server.listen(PORT, () => {
+        console.log(`Server start at port ${PORT}`);
+    });
+}
+
+module.exports = server; // 👈 required for Vercel
