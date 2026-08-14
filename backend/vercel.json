@@ -1,9 +1,16 @@
 {
   "version": 2,
   "builds": [
-    { "src": "index.js", "use": "@vercel/node" }
+    { "src": "backend/index.js", "use": "@vercel/node" },
+    { "src": "frontend/package.json", "use": "@vercel/static-build", "config": { "distDir": "dist" } }
   ],
   "routes": [
-    { "src": "/(.*)", "dest": "index.js" }
+    { "src": "/category/(.*)", "dest": "backend/index.js" },
+    { "src": "/color/(.*)", "dest": "backend/index.js" },
+    { "src": "/product/(.*)", "dest": "backend/index.js" },
+    { "src": "/admin/(.*)", "dest": "backend/index.js" },
+    { "src": "/user/(.*)", "dest": "backend/index.js" },
+    { "src": "/order/(.*)", "dest": "backend/index.js" },
+    { "src": "/(.*)", "dest": "frontend/dist/$1" }
   ]
 }
