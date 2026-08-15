@@ -76,7 +76,7 @@ import trend6 from '../images/trend6.webp';
 import trend7 from '../images/trend7.webp';
 import trend8 from '../images/trend8.webp';
 
-import SliderCard from "../components/sliderCard";
+import SliderCard from "../components/SliderCard";
 import BrandSlider from "../components/BrandSlider";
 import { Link } from "react-router-dom";
 

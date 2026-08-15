@@ -52,7 +52,7 @@ export default function Shop() {
   const [searchParams, setSearchParams] = useSearchParams();
 
   // console.log(limit)
-  const { toastMsg,
+  const {
     fetchCategory,
     allCategory,
     API_URL,IMAGE_BASE_URL,
