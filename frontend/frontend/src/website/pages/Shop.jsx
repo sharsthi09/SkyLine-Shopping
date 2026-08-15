@@ -55,7 +55,7 @@ export default function Shop() {
   const { toastMsg,
     fetchCategory,
     allCategory,
-    API_URL,
+    API_URL,IMAGE_BASE_URL,
     Category_URL,
     Color_URL,
     fetchColor,
@@ -194,12 +194,12 @@ export default function Shop() {
                         <div className="relative overflow-hidden group">
                           <span className="block relative">
                             <img
-                              src={API_URL + `/images/product/` + product.main_img}
+                              src={IMAGE_BASE_URL + `/images/product/` + product.main_img}
                               alt="Product"
                               className="w-full h-56 lg:h-80 cover transition-transform duration-300 group-hover:scale-105 group-hover:hidden"
                             />
                             <img
-                              src={API_URL + `/images/product/` + product.other_img[0]}
+                              src={IMAGE_BASE_URL + `/images/product/` + product.other_img[0]}
                               alt="Product"
                               className="w-full h-56 lg:h-80 cover transition-transform duration-300 group-hover:scale-105 hidden group-hover:block"
                             />
@@ -213,7 +213,7 @@ export default function Shop() {
                                   id: product.category_id,
                                   name: product.productName,
                                   title: product.category_id.categoryname,
-                                  images: product.other_img.map(img => API_URL + `/images/product/` + img),
+                                  images: product.other_img.map(img => IMAGE_BASE_URL + `/images/product/` + img),
                                   price: product.final_price,
                                   mrp: product.original_price,
                                   offer: `${product.discount_percentage}% OFF`,
@@ -234,7 +234,7 @@ export default function Shop() {
                                   addToWishlist({
                                     id: product._id,
                                     title: product.productName,
-                                    img: API_URL + `/images/product/` + product.main_img,
+                                    img: IMAGE_BASE_URL + `/images/product/` + product.main_img,
                                     price: product.final_price
                                   })
                                 }
@@ -244,7 +244,7 @@ export default function Shop() {
 
                             <FaShoppingBag
                               onClick={() =>
-                                addToCart({ id: product._id, discount: product.discount_percentage, title: product.productName, img: API_URL + `/images/product/` + product.main_img, price: product.final_price })
+                                addToCart({ id: product._id, discount: product.discount_percentage, title: product.productName, img: IMAGE_BASE_URL + `/images/product/` + product.main_img, price: product.final_price })
                               }
                               className="w-10 h-10 bg-white p-2 text-black rounded-full translate-y-[50px] group-hover:translate-y-0 duration-1000 hover:bg-[#e5ac00] hover:text-white hover:rotate-[360deg] cursor-pointer"
                             />

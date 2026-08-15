@@ -12,7 +12,7 @@ class CategoryController {
             (resolve, reject) => {
                 try {
                     const newCategoryImageName = generateUniqueImageName(file.name);
-                    const destination = "./Public/images/category/" + newCategoryImageName;
+                    const destination = "./public/images/category/" + newCategoryImageName;
                     file.mv(
                         destination,
                         (error) => {
@@ -177,7 +177,7 @@ class CategoryController {
                 try {
                     if (file) {
                         const newCategoryImageName = generateUniqueImageName(file.name);
-                        const destination = "./Public/images/category/" + newCategoryImageName;
+                        const destination = "./public/images/category/" + newCategoryImageName;
                         file.mv(
                             destination,
                             (error) => {

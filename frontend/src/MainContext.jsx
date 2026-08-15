@@ -212,7 +212,10 @@ const moveWishlistToDb = (wishlist, userId) => {
 
 
 
-  const API_URL = 'http://localhost:5001';
+  const API_URL = import.meta.env.VITE_API_URL || '/api';
+  const IMAGE_BASE_URL = API_URL.replace(/\/api\/?$/, '');
+  console.log("API_URL:", API_URL);
+console.log("IMAGE_BASE_URL:", IMAGE_BASE_URL);
   const Category_URL = '/category';
   const Color_URL = '/color';
   const Product_URL = '/product';
@@ -304,6 +307,7 @@ const moveWishlistToDb = (wishlist, userId) => {
           fetchCategory,
           allCategory,
           API_URL,
+          IMAGE_BASE_URL,
           Category_URL,
           Color_URL,
           fetchColor,

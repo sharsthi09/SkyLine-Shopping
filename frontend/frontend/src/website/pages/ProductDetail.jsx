@@ -7,7 +7,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/thumbs';
 
 import { Context } from '../../MainContext';
-import { useOutletContext, useParams } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 
 
 
@@ -18,7 +18,7 @@ const ProductDetail = () => {
   const [selectedSize, setSelectedSize] = useState(null);
   const [activeSection, setActiveSection] = useState('');
   const { product_id } = useParams();
-  const { fetchProduct, allProduct, API_URL } = useContext(Context);
+  const { fetchProduct, API_URL, IMAGE_BASE_URL } = useContext(Context);
   const [product, setProduct] = useState(null);
   const { addToCart, addToWishlist } = useContext(Context);
 
@@ -40,13 +40,13 @@ const ProductDetail = () => {
     ? [...new Set([product.main_img, ...(product.other_img || [])])]
     : [];
 
-  const handleAddToCart = () => {
-    alert('Added to Cart!');
-  };
+  // const handleAddToCart = () => {
+  //   alert('Added to Cart!');
+  // };
 
-  const handleAddToWishlist = () => {
-    alert('Added to Wishlist!');
-  };
+  // const handleAddToWishlist = () => {
+  //   alert('Added to Wishlist!');
+  // };
 
   return (
     <>
@@ -101,7 +101,7 @@ const ProductDetail = () => {
               {images.map((img, index) => (
                 <SwiperSlide key={index}>
                   <img
-                    src={`${API_URL}/images/product/${img}`}
+                    src={`${IMAGE_BASE_URL}/images/product/${img}`}
                     alt={`Product ${index}`}
                     className="w-full h-[420px] md:h-[650px] object-fill"
                   />
@@ -132,12 +132,13 @@ const ProductDetail = () => {
                       }`}
                   >
                     <img
-                      src={`${API_URL}/images/product/${img}`}
+                      src={`${IMAGE_BASE_URL}/images/product/${img}`}
                       alt={`Thumb ${index}`}
                       className="w-full h-full object-fill"
                     />
                   </div>
                 </SwiperSlide>
+                
               ))}
             </Swiper>
           </div>
@@ -233,7 +234,7 @@ const ProductDetail = () => {
             <div className="flex gap-5 mb-6 w-[180px] flex-col">
               <button
                 onClick={() =>
-                  addToCart({ id: product._id, discount: product.discount_percentage, title: product.productName, img: API_URL + `/images/product/` + product.main_img, price: product.final_price })
+                  addToCart({ id: product._id, discount: product.discount_percentage, title: product.productName, img: IMAGE_BASE_URL, price: product.final_price })
                 }
                 className="flex justify-center items-center px-5 py-3 rounded-full  bg-[#e5ac00] hover:bg-[#e5ac00d2] text-white transition"
               >
@@ -244,7 +245,7 @@ const ProductDetail = () => {
                   addToWishlist({
                     id: product._id,
                     title: product.productName,
-                    img: API_URL + `/images/product/` + product.main_img,
+                    img: IMAGE_BASE_URL,
                     price: product.final_price
                   })
                 }

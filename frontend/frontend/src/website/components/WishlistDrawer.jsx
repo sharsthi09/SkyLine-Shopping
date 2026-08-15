@@ -10,7 +10,7 @@ export default function WishlistDrawer() {
     wishlistItems,
     addToCart,
     removeFromWishlist,
-    handleOpenCart, API_URL
+    handleOpenCart, API_URL,IMAGE_BASE_URL
   } = useContext(Context);
 
   return (
@@ -28,7 +28,7 @@ export default function WishlistDrawer() {
           ) : (
             wishlistItems.map((item, idx) => (
               <div key={idx} className="flex items-start gap-4 border-b pb-4">
-                <img src={item.img.startsWith("http") ? item.img : `${API_URL}/images/product/${item.img}`} alt="" className="w-20 h-20 object-cover rounded" />
+                <img src={item.img.startsWith("http") ? item.img : `${IMAGE_BASE_URL}/images/product/${item.img}`} alt="" className="w-20 h-20 object-cover rounded" />
                 <div className="flex-1">
                   <h4 className="font-medium text-gray-800 mb-1">{item.title}</h4>
                   <p className="text-sm text-gray-500">₹{item.price}</p>

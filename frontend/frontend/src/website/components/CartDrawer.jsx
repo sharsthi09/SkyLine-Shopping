@@ -12,7 +12,7 @@ export default function CartDrawer() {
     cartItems,
     updateCartQuantity,
     removeFromCart,
-    API_URL
+    API_URL,IMAGE_BASE_URL
   } = useContext(Context);
   
 
@@ -58,7 +58,7 @@ export default function CartDrawer() {
             cartItems.map((item, idx) => (
               <div key={idx} className="flex gap-4 border rounded-lg p-3 hover:shadow-sm transition">
                 <div className="w-24 h-28 bg-gray-100 rounded-lg overflow-hidden">
-                  <img src={item.img.startsWith("http") ? item.img : `${API_URL}/images/product/${item.img}`} alt={item.title} className="w-full h-full object-cover" />
+                  <img src={item.img.startsWith("http") ? item.img : `${IMAGE_BASE_URL}/images/product/${item.img}`} alt={item.title} className="w-full h-full object-cover" />
                 </div>
 
                 <div className="flex flex-col justify-between flex-1">

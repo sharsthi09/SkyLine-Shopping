@@ -17,24 +17,28 @@ server.use(express.json());
 server.use(cors({
     origin: [
         'http://localhost:5173',
-        'https://YOUR-FRONTEND-PROJECT.vercel.app' // add real frontend URL once deployed
+        'https://YOUR-FRONTEND-PROJECT.vercel.app'
     ]
 }));
 
-server.use(express.static('public')); // lowercase — match your actual folder name exactly (Linux is case-sensitive)
+server.use(express.static('public'));
 
-server.use('/category', CategoryRouter)
-server.use('/color', ColorRouter)
-server.use('/product', ProductRouter)
-server.use('/admin', AdminRouter)
-server.use('/user', UserRouter)
-server.use('/order', OrderRouter)
+// All API routes live under /api
+const apiRouter = express.Router();
+
+apiRouter.use('/category', CategoryRouter)
+apiRouter.use('/color', ColorRouter)
+apiRouter.use('/product', ProductRouter)
+apiRouter.use('/admin', AdminRouter)
+apiRouter.use('/user', UserRouter)
+apiRouter.use('/order', OrderRouter)
+
+server.use('/api', apiRouter);
 
 mongoose.connect(process.env.MONGODB_KEY, { dbName: 'ishop' })
     .then(() => console.log("MongoDB connected"))
     .catch((error) => console.log(error))
 
-// Only bind a port locally — Vercel's serverless runtime handles requests itself
 if (process.env.NODE_ENV !== 'production') {
     server.listen(PORT, () => {
         console.log(`Server start at port ${PORT}`);

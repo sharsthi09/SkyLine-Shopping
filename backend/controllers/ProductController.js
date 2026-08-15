@@ -12,7 +12,7 @@ class ProductController {
             (resolve, reject) => {
                 try {
                     const newProductImageName = generateUniqueImageName(file.name);
-                    const destination = "./Public/images/product/" + newProductImageName;
+                    const destination = "./public/images/product/" + newProductImageName;
                     file.mv(
                         destination,
                         (error) => {
@@ -225,7 +225,7 @@ class ProductController {
                         for (let files of allNewFiles) {
                             const newProductImageName = generateUniqueImageName(files.name);
                             currentImages.push(newProductImageName);
-                            const destination = "./Public/images/product/" + newProductImageName;
+                            const destination = "./public/images/product/" + newProductImageName;
                             files.mv(destination);
 
                             ProductModel.updateOne(
@@ -319,7 +319,7 @@ class ProductController {
                 // If file is uploaded, update the image
                 if (file) {
                     const newProductImageName = generateUniqueImageName(file.name);
-                    const destination = "./Public/images/product/" + newProductImageName;
+                    const destination = "./public/images/product/" + newProductImageName;
 
                     file.mv(destination, async (error) => {
                         if (error) {

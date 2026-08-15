@@ -21,7 +21,7 @@ export default function ProfilePage() {
     const [activeTab, setActiveTab] = useState("personal");
     const [orders, setOrders] = useState([]);
     const [loading, setLoading] = useState(false);
-    const { API_URL, toastMsg } = useContext(Context);
+    const { API_URL, toastMsg, IMAGE_BASE_URL } = useContext(Context);
 
     // ── NEW: address form state ──
     const [showAddressForm, setShowAddressForm] = useState(false);
@@ -334,7 +334,7 @@ export default function ProfilePage() {
                                     <p><strong>Total:</strong> ₹{o.order_total.toFixed(2)}</p>
                                     <div className="mt-2 grid grid-cols-1 sm:grid-cols-2 gap-4">
                                         {o.product_details.map((pd, idx) => {
-                                            const imageUrl = `${API_URL}/images/product/${pd.main_img}`;
+                                            const imageUrl = `${IMAGE_BASE_URL}/images/product/${pd.main_img}`;
                                             return (
                                                 <div key={idx} className="flex items-center gap-4">
                                                     <img src={imageUrl} alt={pd.product_id.name} className="w-16 h-16 object-cover rounded" />
