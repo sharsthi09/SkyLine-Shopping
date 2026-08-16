@@ -87,16 +87,16 @@ export default function Header() {
                   </div>
                 </li>
                 <li><div className="relative group h-20 pt-4">
-                  <Link to={'shop/women-tops'}>
+                  <Link to={'shop/women-kurtis'}>
                     <span className="mb-2 relative cursor-pointer after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-white after:transition-all after:bg-gradient-to-r after:from-pink-500 after:to-yellow-500 after:duration-300 hover:after:w-full " onClick={toggleSubMenu}>Women</span></Link>
                 </div>
                 </li>
                 <li><div className="relative group h-20 pt-4">
-                  <Link to={'shop'}>
+                  <Link to={'shop/kids-tshirts'}>
                     <span className="mb-2 relative cursor-pointer after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-white after:transition-all after:bg-gradient-to-r after:from-pink-500 after:to-yellow-500 after:duration-300 hover:after:w-full " onClick={toggleSubMenu}>Kids</span></Link></div>
                 </li>
                 <li><div className="relative group h-20 pt-4">
-                  <Link to={'shop'}>
+                  <Link to={'shop/sofa-covers'}>
                     <span className="mb-2 relative cursor-pointer after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-white after:transition-all after:bg-gradient-to-r after:from-pink-500 after:to-yellow-500 after:duration-300 hover:after:w-full " onClick={toggleSubMenu}>Home & Kitchen</span></Link></div>
                 </li>
               </ul>
