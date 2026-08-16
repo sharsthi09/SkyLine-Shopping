@@ -17,7 +17,7 @@ server.use(express.json());
 server.use(cors({
     origin: [
         'http://localhost:5173',
-        'https://sky-line-shopping-pvsw.vercel.app/'
+        'https://sky-line-shopping-6mn9.vercel.app/'
     ]
 }));
 
